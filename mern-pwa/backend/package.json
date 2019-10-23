@@ -27,6 +27,7 @@
     "express-session": "^1.17.0",
     "moment": "^2.24.0",
     "mongoose": "^5.7.6",
+    "mongoose-regex-search": "^0.8.7",
     "multer": "^1.4.2",
     "nodemailer": "^6.3.1",
     "passport": "^0.4.0",
