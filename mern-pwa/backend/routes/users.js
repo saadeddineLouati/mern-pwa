@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const passport = require("passport");
 let user = require('../models/user');
 
 router.route('/').get((req, res) => {
