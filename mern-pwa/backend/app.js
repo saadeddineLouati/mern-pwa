@@ -60,6 +60,7 @@ const viewRouter = require('./routes/view');
 const visitRouter = require('./routes/visit');
 const usersRouter = require('./routes/users');
 const favouritesRouter = require('./routes/favouritets');
+const faqRouter = require('./routes/faq');
 
 app.use('/games', gamesRouter);
 app.use('/tops', topsRouter);
@@ -68,6 +69,7 @@ app.use('/views', viewRouter);
 app.use('/visits', visitRouter);
 app.use('/users', usersRouter);
 app.use('/favourites', favouritesRouter);
+app.use('/faq', faqRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
